@@ -1,0 +1,23 @@
+Track and Commit Your Files
+OK, we want to track “everything” (except those files ignored!); to do so, type (ensure you
+put the trailing period “.”)
+
+git add .
+git status
+git commit -m "Initial Commit"
+
+These files are being tracked and are “staged” for commit.
+Finally, we want to “commit” the changes (essentially lock them in)
+This commits the code with a note (or “message”; hence the -m switch) about that
+particular commit. 
+
+git add .
+git commit -m “Added Command Model to API Project”
+git push origin master
+
+
+Before we finish here though, remember to save everything and (ensuring you’re in
+the main solution folder CommandAPISolution):
+• git add .
+•git commit -m “Added Model and Mock Repository”
+•git push origin master
