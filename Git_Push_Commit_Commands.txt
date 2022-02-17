@@ -2,6 +2,7 @@ Track and Commit Your Files
 OK, we want to track “everything” (except those files ignored!); to do so, type (ensure you
 put the trailing period “.”)
 
+Commands:
 git add .
 git status
 git commit -m "Initial Commit"
@@ -11,13 +12,48 @@ Finally, we want to “commit” the changes (essentially lock them in)
 This commits the code with a note (or “message”; hence the -m switch) about that
 particular commit. 
 
+NOTE:Remember to save everything (ensuring you’re in the main solution folder CommandAPISolution while commit changes):
+
+Commands:
 git add .
 git commit -m “Added Command Model to API Project”
 git push origin master
 
 
-Before we finish here though, remember to save everything and (ensuring you’re in
-the main solution folder CommandAPISolution):
-• git add .
+
+NOTE:Remember to save everything (ensuring you’re in the main solution folder CommandAPISolution while commit changes):
+
+Commands:
+•git add .
 •git commit -m “Added Model and Mock Repository”
 •git push origin master
+
+
+
+Ctr+Shift+P (To open the Command Pallet) 
+
+Connect Sql Server from VS Code
+First install the mssql extension
+
+In Visual Studio Code, press Ctrl+Shift+P (or F1) to open the Command Palette.
+Select MS SQL:Connect and choose Enter. (here on the command pallent paste the connectionstring, it will create a connection profile)
+Select Create Connection Profile.
+
+SQL Server ConnectionString
+Data Source=DESKTOP-70PLDRO\SQLEXPRESS;Initial Catalog=IdentityDB;Integrated Security=True
+
+Once the connectionstring is added in appsettings.json and it is been registered in Startup.cs then we need to make a build 
+
+command :
+dotnet build
+dotnet run
+
+
+--Migration models to Database 
+Now migration of code to database (code first migration)
+Go to your command line, and ensure that you are “in” the API project folder
+(CommandAPI), and type the following (hitting Enter when you’re done):
+
+Command:
+dotnet ef migrations add AddCommandsToDB
+dotnet ef database update
