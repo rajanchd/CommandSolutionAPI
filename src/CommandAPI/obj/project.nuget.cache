@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1PSFwbtH85xEh+NR8z+5/ohCfrLioEAC/Ito/yTGHmL+loOX7n3nuw/Gr1waWy1AdM5h67mJcc4R2/LQufIHgw==",
+  "dgSpecHash": "VEXZK46ct2Bxs8SiBapssZzOCxa4vQsoqwW3qY8tqzLrnxXcCj1ROxl8QHeo3T1LT3mzINp1JKai0gIm0Pt1ag==",
   "success": true,
-  "projectFilePath": "D:\\wwwroot\\CommandSolutionAPI\\src\\CommandAPI\\CommandAPI.csproj",
+  "projectFilePath": "D:\\wwwroot\\CommandSolutionAPI\\src\\commandapi\\CommandAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rajan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\rajan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

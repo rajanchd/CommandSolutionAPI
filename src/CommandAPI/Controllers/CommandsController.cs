@@ -55,7 +55,6 @@ namespace CommandAPI.Controllers
             // else if (String.Equals(id, ""))
             // throw new  AgrumentException("Empty values are not allowed.", "value");
 
-
             var commandItem = _repository.GetCommandById(id);
             if (commandItem == null)
                 return NotFound();

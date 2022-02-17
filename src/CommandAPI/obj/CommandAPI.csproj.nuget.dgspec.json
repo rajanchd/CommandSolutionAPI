@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\wwwroot\\CommandSolutionAPI\\src\\CommandAPI\\CommandAPI.csproj": {}
+    "D:\\wwwroot\\CommandSolutionAPI\\src\\commandapi\\CommandAPI.csproj": {}
   },
   "projects": {
-    "D:\\wwwroot\\CommandSolutionAPI\\src\\CommandAPI\\CommandAPI.csproj": {
+    "D:\\wwwroot\\CommandSolutionAPI\\src\\commandapi\\CommandAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\wwwroot\\CommandSolutionAPI\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectUniqueName": "D:\\wwwroot\\CommandSolutionAPI\\src\\commandapi\\CommandAPI.csproj",
         "projectName": "CommandAPI",
-        "projectPath": "D:\\wwwroot\\CommandSolutionAPI\\src\\CommandAPI\\CommandAPI.csproj",
+        "projectPath": "D:\\wwwroot\\CommandSolutionAPI\\src\\commandapi\\CommandAPI.csproj",
         "packagesPath": "C:\\Users\\rajan\\.nuget\\packages\\",
-        "outputPath": "D:\\wwwroot\\CommandSolutionAPI\\src\\CommandAPI\\obj\\",
+        "outputPath": "D:\\wwwroot\\CommandSolutionAPI\\src\\commandapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rajan\\AppData\\Roaming\\NuGet\\NuGet.Config",
